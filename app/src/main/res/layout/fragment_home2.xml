@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/iconatas"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/icon_tari2"
+            app:civ_border_color="@android:color/holo_red_light">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/icon_suku22"
+            app:civ_border_color="@android:color/holo_red_light">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/icon_bahasa2"
+            app:civ_border_color="@android:color/holo_red_light">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/icon_kerajin2"
+            app:civ_border_color="@android:color/holo_red_light">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/icon_lagu2"
+            app:civ_border_color="@android:color/holo_red_light">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/icon_pakaian2"
+            app:civ_border_color="@android:color/holo_red_light">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/icon_senjata2"
+            app:civ_border_color="@android:color/holo_red_light">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/iconfood"
+            app:civ_border_color="@android:color/holo_red_light"></de.hdodenhof.circleimageview.CircleImageView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:gravity="right"
+        android:text="Lihat Semua"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Budaya Populer"
+        android:textSize="20dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewHome"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:layout_marginLeft="25dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:layout_marginRight="25dp"
+        android:text="Daerah SULTRA" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewHomeDAERAH"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TugasFive</string>
+    <string-array name="namadaerah">
+        <item>KOTA KENDARI</item>
+        <item>KABUPATEN KOLAKA</item>
+        <item>KABUPATEN KONAWE</item>
+        <item>KABUPATEN MUNA</item>
+        <item>KABUPATEN BUTON</item>
+        <item>KABUPATEN BUTON SELATAN</item>
+        <item>KABUPATEN KONAWE SELATAN</item>
+        <item>KABUPATEN KOLAKA TIMUR</item>
+        <item>KABUPATEN KOLAKA UTARA</item>
+        <item>KABUPATEN WAKATOBI</item>
+        <item>KABUPATEN BOMBANA</item>
+        <item>KABUPATEN BUTON UTARA</item>
+        <item>KABUPATEN BUTON TENGAH</item>
+        <item>KOTA BAU-BAU</item>
+    </string-array>
+
+    <array name="photodaerah">
+        <item>@drawable/icon_kotakendari</item>
+        <item>@drawable/icon_kolaka2</item>
+        <item>@drawable/icon_konawe</item>
+        <item>@drawable/icon_muna</item>
+        <item>@drawable/icon_buton</item>
+        <item>@drawable/icon_butonselatan</item>
+        <item>@drawable/icon_konaweselatan</item>
+        <item>@drawable/icon_koltim</item>
+        <item>@drawable/icon_kolut</item>
+        <item>@drawable/icon_wakatobi</item>
+        <item>@drawable/icon_bombana</item>
+        <item>@drawable/icon_butur</item>
+        <item>@drawable/icon_butontengah</item>
+        <item>@drawable/icon_baubau</item>
+    </array>
+
+    <string-array name="budayapopuler">
+        <item>Tarian</item>
+        <item>Wisata</item>
+        <item>Rumah Adat</item>
+        <item>Pakaian Adat</item>
+        <item>Senjata</item>
+    </string-array>
+
+    <array name="budayapopulerphoto">
+        <item>@drawable/bp_tarianadat</item>
+        <item>@drawable/pemandangansultra</item>
+        <item>@drawable/bp_rumahadat</item>
+        <item>@drawable/bp_pakaianadat</item>
+        <item>@drawable/bp_senjata</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

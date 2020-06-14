@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:id="@+id/lis_daerahsultra"
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="271dp"
+                android:layout_height="149dp"
+                android:layout_gravity="center"
+                tools:srcCompat="@drawable/icon_kolut" />
+
+            <TextView
+                android:id="@+id/textViewnama"
+                android:layout_width="271dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="Kab.Kolaka Utara "
+                android:textAlignment="center" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
